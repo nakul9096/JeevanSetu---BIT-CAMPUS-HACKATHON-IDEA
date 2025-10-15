@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">JeevanSetu</string>
+    <string name="app_logo">App logo</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue to YourApp</string>
+    <string name="hint_email">Email or username</string>
+    <string name="hint_password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="button_login">Login</string>
+    <string name="login_processing">Signing in…</string>
+    <string-array name="area_options">
+        <item>Karwa</item>
+        <item>Ballarpur</item>
+        <item>Bamni</item>
+        <item>Chimur</item>
+        <item>Swargaon</item>
+        <item>Visapur</item>
+    </string-array>
+</resources>

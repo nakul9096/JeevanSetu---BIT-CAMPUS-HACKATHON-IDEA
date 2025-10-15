@@ -1,0 +1,8 @@
+<resources>
+    <color name="brand">#1E88E5</color>
+    <color name="brandVariant">#1565C0</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="surfaceBackground">#F6F7FB</color>
+    <color name="white">#FFFFFF</color>
+</resources>

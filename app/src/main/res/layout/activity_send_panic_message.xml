@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".SendPanicMessage">
+
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Panic Message"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="12dp" />
+
+
+    <TextView
+        android:id="@+id/labelLocality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Locality (Area)"
+        android:textSize="14sp"
+        android:textColor="#444"
+        android:paddingTop="8dp" />
+
+
+    <!-- Disabled EditText that shows selected area -->
+    <EditText
+        android:id="@+id/etArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:focusable="false"
+        android:background="@drawable/edit_text_bg"
+        android:padding="12dp"
+        android:textColor="#111"
+        android:textSize="16sp"
+        android:hint="Selected area" />
+
+
+    <!-- Optional helper text -->
+    <TextView
+        android:id="@+id/tvHelper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This area is set from previous selection and cannot be edited here."
+        android:textSize="12sp"
+        android:textColor="#666"
+        android:paddingTop="8dp" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="20dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:id="@+id/progress"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
