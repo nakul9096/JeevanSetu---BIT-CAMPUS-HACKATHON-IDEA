@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "118058309781",
+    "firebase_url": "https://jeevansetu-1234-default-rtdb.firebaseio.com",
+    "project_id": "jeevansetu-1234",
+    "storage_bucket": "jeevansetu-1234.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118058309781:android:0a72a3c823e1b89a35639c",
+        "android_client_info": {
+          "package_name": "com.example.jeevansetu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHyM8OCmHzMv57wVPE0Xamd0cFYgnkUUo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
